@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost/docs/docs/</loc>
+    <lastmod>2023-05-22T07:53:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost/docs/docs/architecture/</loc>
+    <lastmod>2023-05-22T07:53:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost/docs/</loc>
+    <lastmod>2023-05-22T07:53:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost/docs/docs/architecture/overview123/</loc>
+    <lastmod>2023-05-22T07:53:34-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost/docs/docs/about/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/architecture/about234/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/getting-started/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/about/overview/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/about/brand/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/getting-started/browsers-devices/</loc>
+  </url><url>
+    <loc>http://localhost/docs/categories/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/getting-started/download/</loc>
+  </url><url>
+    <loc>http://localhost/docs/docs/about/license/</loc>
+  </url><url>
+    <loc>http://localhost/docs/tags/</loc>
+  </url>
+</urlset>

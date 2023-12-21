@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost/docs/docs/getting-started/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost/docs/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Browsers and devices</title>
+      <link>http://localhost/docs/docs/getting-started/browsers-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docs/docs/getting-started/browsers-devices/</guid>
+      <description>Supported browsers#Bootstrap supports the latest, stable releases of all major browsers and platforms.
+Alternative browsers which use the latest version of WebKit, Blink, or Gecko, whether directly or via the platform&amp;rsquo;s web view API, are not explicitly supported. However, Bootstrap should (in most cases) display and function correctly in these browsers as well. More specific support information is provided below.
+You can find our supported range of browsers and their versions in our .</description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>http://localhost/docs/docs/getting-started/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docs/docs/getting-started/download/</guid>
+      <description>Compiled CSS and JS#Download ready-to-use compiled code for Bootstrap v to easily drop into your project, which includes:
+Compiled and minified CSS bundles (see CSS files comparison) Compiled and minified JavaScript plugins (see JS files comparison) This doesn&amp;rsquo;t include documentation, source files, or any optional JavaScript dependencies like Popper.
+Download
+Source files#Compile Bootstrap with your own asset pipeline by downloading our source Sass, JavaScript, and documentation files.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost/docs/docs/about/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost/docs/docs/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost/docs/docs/about/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docs/docs/about/overview/</guid>
+      <description>Team#Bootstrap is maintained by a small team of developers on GitHub. We&amp;rsquo;re actively looking to grow this team and would love to hear from you if you&amp;rsquo;re excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
+History#Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular front-end frameworks and open source projects in the world.</description>
+    </item>
+    
+    <item>
+      <title>Brand guidelines</title>
+      <link>http://localhost/docs/docs/about/brand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docs/docs/about/brand/</guid>
+      <description>Have a need for Bootstrap&amp;rsquo;s brand resources? Great! We have only a few guidelines we follow, and in turn ask you to follow as well.
+Logo#When referencing Bootstrap, use our logo mark. Do not modify our logos in any way. Do not use Bootstrap&amp;rsquo;s branding for your own open or closed source projects.</description>
+    </item>
+    
+    <item>
+      <title>License FAQs</title>
+      <link>http://localhost/docs/docs/about/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docs/docs/about/license/</guid>
+      <description>Bootstrap is released under the MIT license and is copyright. Boiled down to smaller chunks, it can be described with the following conditions.
+It requires you to:#Keep the license and copyright notice included in Bootstrap&amp;rsquo;s CSS and JavaScript files when you use them in your works It permits you to:#Freely download and use Bootstrap, in whole or in part, for personal, private, company internal, or commercial purposes Use Bootstrap in packages or distributions that you create Modify the source code Grant a sublicense to modify and distribute Bootstrap to third parties not included in the license It forbids you to:#Hold the authors and license owners liable for damages as Bootstrap is provided without warranty Hold the creators or copyright holders of Bootstrap liable Redistribute any piece of Bootstrap without proper attribution Use any marks owned by Bootstrap in any way that might state or imply that Bootstrap endorses your distribution Use any marks owned by Bootstrap in any way that might state or imply that you created the Bootstrap software in question </description>
+    </item>
+    
+  </channel>
+</rss>
