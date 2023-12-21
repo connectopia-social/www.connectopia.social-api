@@ -1,21 +1,16 @@
 # syntax=docker/dockerfile:1
 
-FROM golang:1.20 as builder
+FROM golang as builder
 
 # Set destination for COPY
 WORKDIR /app
 
 # Copy the source code. Note the slash at the end, as explained in
 # https://docs.docker.com/engine/reference/builder/#copy
-COPY *.go ./
-ADD internal ./internal
-
-# Download Go modules
-COPY go.mod ./
-RUN go mod tidy
+COPY . .
 
 # Build
-RUN CGO_ENABLED=0 GOOS=linux go build -o /api-server
+RUN CGO_ENABLED=0 GOOS=linux go build -o /api-server cmd/api-server/main.go
 
 # Optional:
 # To bind to a TCP port, runtime parameters must be supplied to the docker command.
