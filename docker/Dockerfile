@@ -20,7 +20,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o /api-server cmd/api-server/main.go
 # EXPOSE 80
 
 # Build the production image
-FROM alpine:latest
+FROM alpine:latest as production
 COPY --from=builder /api-server /api-server
 EXPOSE 80
 CMD ["/api-server"]
