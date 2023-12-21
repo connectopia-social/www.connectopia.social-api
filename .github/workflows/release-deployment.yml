@@ -126,9 +126,9 @@ jobs:
           target: production
           push: true
           tags: |
-            ghcr.io/ivankuchin/${{ steps.set_variables.outputs.BUILD_REPO }}:${{ steps.set_variables.outputs.BUILD_RELEASE }}
-            ghcr.io/ivankuchin/${{ steps.set_variables.outputs.BUILD_REPO }}:${{ steps.set_variables.outputs.BUILD_RELEASE_MAJOR }}
-            ghcr.io/ivankuchin/${{ steps.set_variables.outputs.BUILD_REPO }}:latest
+            ghcr.io/connectopia-social/${{ steps.set_variables.outputs.BUILD_REPO }}:${{ steps.set_variables.outputs.BUILD_RELEASE }}
+            ghcr.io/connectopia-social/${{ steps.set_variables.outputs.BUILD_REPO }}:${{ steps.set_variables.outputs.BUILD_RELEASE_MAJOR }}
+            ghcr.io/connectopia-social/${{ steps.set_variables.outputs.BUILD_REPO }}:latest
 
       ##########################
       # Stop deployment        #
