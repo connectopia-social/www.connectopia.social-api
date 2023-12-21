@@ -33,6 +33,7 @@ jobs:
       # write permission is required to create a deployment
       deployments: write
       # write permission is required to publish a package
+      contents: read
       packages: write
   
     ##################
