@@ -28,17 +28,13 @@ jobs:
     name: job 1
     # Set the agent to run on
     runs-on: ubuntu-latest
-    # Only run this on the main repo
-    # if: github.repository == 'github/super-linter'
 
-    #########################################################################################
-    # Do not use startegy for containers building.                                          #
-    # All containers will build in parallel, rather than use cache and same dynamic linking #
-    #########################################################################################
-    #strategy:
-    #  matrix:
-    #    container: [app, cron, chat]
-
+    permissions:
+      # write permission is required to create a deployment
+      deployments: write
+      # write permission is required to publish a package
+      packages: write
+  
     ##################
     # Load all steps #
     ##################
